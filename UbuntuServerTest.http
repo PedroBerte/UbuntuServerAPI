@@ -1,0 +1,6 @@
+@UbuntuServerTest_HostAddress = http://localhost:5019
+
+GET {{UbuntuServerTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
